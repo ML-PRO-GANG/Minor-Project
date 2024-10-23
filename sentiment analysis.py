@@ -5,7 +5,7 @@ import seaborn as sns
 import nltk
 import os
 from nltk.sentiment import SentimentIntensityAnalyzer
-from tqdm.notebook import tqdm
+from tqdm import tqdm
 
 from transformers import AutoTokenizer, pipeline, AutoModelForSequenceClassification
 from scipy.special import softmax
